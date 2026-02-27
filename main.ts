@@ -24,7 +24,7 @@ let y = [
 basic.forever(function () {
     for (let i = 0; i <= x.length - 1; i++) {
         led.plot(x[i], y[i])
-        basic.pause(100)
+        basic.pause(500)
         basic.clearScreen()
     }
 })
